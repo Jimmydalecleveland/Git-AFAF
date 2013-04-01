@@ -1,0 +1,10 @@
+There are three specific steps for implementing the Social Media Web User Control:
+
+1. Add the SocialMediaSharingStyles.css to the head section of the 
+   page (or these can be added to the site's main stylesheet, either method works).
+
+2. Add the SocialMediaSharingScript.js directly after the opening body 
+   tag. This file contains all the scripts required for the buttons to work.
+
+3. Add the SocialMediaSharingControl.ascx to the project and place it on the 
+   aspx page (design mode).

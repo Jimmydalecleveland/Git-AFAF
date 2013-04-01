@@ -1,0 +1,1103 @@
+﻿/*********************************/
+/* Generic Styling               */
+/*********************************/
+
+body 
+{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #580C28;
+    background: #FFD1ED url(images/bkgnd.jpg) repeat;
+}
+
+div.menu-dot 
+{
+	width: 16px;
+	height: 41px;
+	background-image: url(images/bullet.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+a, a:visited, a:active 
+{
+	text-decoration:none;
+	color: #A83C58;
+}
+
+a:hover 
+{
+	text-decoration:none;
+	color: #981949;
+}
+
+a.home-button 
+{
+	width: 59px;
+	height: 41px;
+	background-image: url(images/home-on.png);
+}
+
+a.home-button:link {}
+
+a.home-button:visited {}
+
+a.home-button:hover 
+{
+	background-image: url(images/home-over.png);
+}
+
+a.home-button:active {}
+
+a.photos-button 
+{
+	width: 72px;
+	height: 41px;
+	background-image: url(images/photos-off.png);
+}
+
+a.photos-button:link {}
+
+a.photos-button:visited {}
+
+a.photos-button:hover 
+{
+	background-image: url(images/photos-over.png);
+}
+
+a.photos-button:active {}
+
+a.help-button 
+{
+	width: 149px;
+	height: 41px;
+	background-image: url(images/help-off.png);
+}
+
+a.help-button:link {}
+
+a.help-button:visited {}
+
+a.help-button:hover 
+{
+	background-image: url(images/help-over.png);
+}
+
+a.help-button:active {}
+
+a.about-button 
+{
+	width: 91px;
+	height: 41px;
+	background-image: url(images/about-off.png);
+}
+
+a.about-button:link {}
+
+a.about-button:visited {}
+
+a.about-button:hover 
+{
+	background-image: url(images/about-over.png);
+}
+
+a.about-button:active {}
+
+a.blog-button 
+{
+	width: 52px;
+	height: 41px;
+	background-image: url(images/blog-off.png);
+}
+
+a.blog-button:link {}
+
+a.blog-button:visited {}
+
+a.blog-button:hover 
+{
+	background-image: url(images/blog-over.png);
+}
+
+a.blog-button:active {}
+
+a.resources-button 
+{
+	width: 90px;
+	height: 41px;
+	background-image: url(images/resources-off.png);
+}
+
+a.resources-button:link {}
+
+a.resources-button:visited {}
+
+a.resources-button:hover 
+{
+	background-image: url(images/resources-over.png);
+}
+
+a.resources-button:active {}
+
+a.resources-button 
+{
+	width: 90px;
+	height: 41px;
+	background-image: url(images/resources-off.png);
+}
+
+a.resources-button:link {}
+
+a.resources-button:visited {}
+
+a.resources-button:hover 
+{
+	background-image: url(images/resources-over.png);
+}
+
+a.resources-button:active {}
+
+a.shop-button 
+{
+	width: 53px;
+	height: 41px;
+	background-image: url(images/shop-off.png);
+}
+
+a.shop-button:link {}
+
+a.shop-button:visited {}
+
+a.shop-button:hover 
+{
+	background-image: url(images/shop-over.png);
+}
+
+a.shop-button:active {}
+
+img
+{
+    border: 0 none;
+}
+
+h1, h2, h3, h4, h5
+{
+    font-weight: normal;
+}
+
+h1 
+{
+    font-size: 2em;
+    text-align:center;
+}
+
+h2 
+{
+    font-size: 1.75em;
+}
+
+h3
+{
+    font-size: 1.5em;
+}
+
+h4 
+{
+    font-size: 1.25em;
+}
+
+h5 
+{
+    font-size: 1em;
+}
+
+/*********************************/
+/* Class Styling                 */
+/*********************************/
+
+/* Aligning */
+
+.left-align
+{
+    text-align: left;
+    width:50%;
+}
+
+.right-align
+{
+    text-align: right;
+    width:50%;
+}
+
+.center-align
+{
+    text-align: center;
+}
+
+/* Colors */
+
+.light-beige
+{
+    color: #FAF7F0;
+}
+
+.dark-red
+{
+    color: #580B27;
+}
+
+.bright-red
+{
+    color: #A12A0B;
+}
+
+/* Footer */
+
+.footerlist,
+.footerlist ul,
+.footerlist li 
+{
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.footerlist li:after 
+{
+	content: "\0020 \2022 \0020";
+}
+
+.footer-inside {
+	
+}
+
+.footer-logo 
+{
+	position: relative;
+	top: 8px;
+}
+
+/* Registration Forms */
+
+.registration-col1
+{
+    padding-right: 35px;
+    padding-bottom: 10px;
+    width: 145px;
+    text-align: right;
+}
+
+.registration-col2
+{
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+/* Social Sharing */
+
+.socialMediaTableCol1 
+{
+    padding: 0 0 0 0;
+}
+
+.socialMediaTableCol2 
+{
+    padding: 0 0 0 10px;
+}
+
+.socialMediaTableCol3 
+{
+    padding: 0 0 0 10px;
+}
+
+.fb-like
+{
+    margin-bottom: 2px;
+	padding: 0px;    
+}
+
+.twitter-share-button
+{
+    margin: 0px;
+	padding: 0px;
+    max-width: 80px;   
+}
+
+.g-plusone 
+{
+    margin: 0px;
+	padding: 0px;
+    width: 90px;
+}
+
+/* Anonymous */
+
+.whatsThis
+{
+    cursor:pointer;
+    text-decoration:underline;
+    font-size: 11px;
+    
+}
+
+/* Participant List */
+
+.bubble {
+    float: right;
+    width: 54px;
+    height: 54px;
+    margin-top: -40px;
+    margin-right: -16px;
+    
+    text-align: center;
+    line-height: 48px;
+    text-shadow: 1px 1px #000;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-image: url(images/circle.png);
+}
+
+.participantsList 
+{
+    background-color: #FFFDFA;
+    margin-top:-10px;
+    padding:10px;
+    border:none;
+    min-height: 250px;
+    width:83%;
+    overflow-y: scroll;
+}
+
+.button-runners
+{
+    background:none;
+    border:none;
+    text-decoration:underline;
+    color:#A12A0B;
+    cursor:pointer;
+}
+
+/* Checkout */
+
+.checkout-col1
+{
+    width: 70px;
+}
+
+.checkout-col2
+{
+    width: 60px;
+    text-align: left;
+}
+
+.checkout-col3
+{
+    width: 60px;
+}
+
+.checkout-col4
+{
+    width: 60px;
+}
+/* Order Summary */
+
+.rowTotal
+{
+    font-weight: bold;
+}
+
+.item-name 
+{
+    width: 210px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.item-price 
+{
+    text-align: left;
+}
+
+/*********************************/
+/* ID Styling                    */
+/*********************************/
+
+/* Master Page */
+
+#wrapper 
+{
+    margin: 0px auto;
+    border: 0px;
+    padding: 0px;
+    width: 1000px;
+    height: auto;
+    background-color: transparent;
+}
+
+#content-wrapper
+{
+    background: #FAF7F0;
+    /*Border*/
+    border: 1px solid #EDC9AA;
+    border-radius: 10px;
+    -moz-border-radius: 10px; /* Firefox 3.6 and earlier */
+    
+    /*Shadow*/
+    -moz-box-shadow:    0 0 25px 0 #888;
+    -webkit-box-shadow: 0 0 25px 0 #888;
+    box-shadow:         0 0 25px 0 #888;
+    
+    padding: 30px 15px 30px 15px;
+    margin: 30px 0 0 20px;
+    width: 930px;
+}
+
+#content 
+{
+    margin: 20px 0 0 0;
+    border: 0px;
+    width: auto;
+    min-height: 542px;
+    background-color: transparent;
+}
+
+#left-col
+{
+    margin-top:63px;
+	float: left;
+	width: 550px;
+	margin-bottom: 35px;
+}
+
+#right-col
+{
+    margin-top: -43px;
+	margin-left: 600px;
+	margin-bottom: 35px;
+	width:300px;
+	text-align:center;
+}
+
+#header 
+{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    width: inherit;
+    height: 100px;
+    background-color: transparent;
+}
+
+#logo 
+{
+    position: absolute;
+    left: inherit;
+    top: 0px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    width: 322px;
+    height: inherit;
+    background: url('images/afaf-main2.png');
+    background-repeat: no-repeat;
+}
+
+#nav-bar 
+{
+    position: absolute;
+    left: inherit;
+    top: 15px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 41px;
+    background-image: url(images/burg-stripes.png);
+	background-repeat: repeat-x;
+    z-index: -1;
+}
+
+#navigation
+{
+    margin: 15px 0px 0px 0px;
+    border: 0px;
+    padding: 0px 0px 0px 321px;
+    width: auto;
+    height: 41px;
+    background-color: transparent;
+	text-align:center;
+}
+
+#navigation ul 
+{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+}
+
+#navigation li 
+{
+	float:left;
+	text-transform:uppercase;
+	padding:0px;
+}
+
+#navigation li ul li 
+{
+	padding-top: 0px;
+}
+
+#navigation li a 
+{
+	font:bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	text-decoration:none;
+	display:block;
+}
+
+#footer
+{
+	margin: 40px 0 0 0;
+    border: 0px;
+	width: 100%;
+	height:88px;
+    color:#580C28;
+    background-color: transparent;
+	float:left;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/* Registration Pages */
+
+#title
+{
+    border-bottom: 2px solid #580C27;
+    margin-left: -16px;
+    width: 500px;
+}
+
+#title p
+{
+    font: 20px Helvetica, Arial, sans-serif;
+    padding: 0 0 0 40px;
+    margin-bottom: 12px;
+}
+
+#event
+{
+    width: 500px;
+}
+
+#event-info
+{
+    padding: 0 10px 10px 18px;
+}
+
+#description
+{
+    padding: 0 10px 0 18px;
+}
+
+#form-info
+{
+    margin: 15px 10px 10px 150px;
+}
+
+#error
+{
+    color: #A12A0B;
+}
+
+#checkout
+{
+    padding-top: 35px;
+}
+
+#event-location
+{
+    margin: 0 0 7px 32px;
+    text-align: left;
+}
+
+#share
+{
+    margin: 40px 0 10px 40px;
+    text-align: center;
+}
+
+#share h3
+{
+    margin: 0 0 0px -28px;
+}
+
+#event-footer
+{
+	clear: both;
+	border-top: 1px solid #580B27;
+	margin: 20px 30px 0 30px;
+	padding-top: 10px;
+}
+
+#event-footer-table
+{
+    width:100%;
+    text-align:center;
+}
+
+td#recipient-photo
+{
+    width: 125px;
+    height: 115px;
+    vertical-align: top;
+}
+
+#sign-up input[type=submit]
+{
+    background-image: url("images/signup button.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+    width: 93px;
+    height: 48px;
+    border: none;
+}
+
+#sign-up input[type=submit]:hover
+{
+	background-image: url("images/signup button hover.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+}
+
+#sign-up input[type=submit]:active
+{
+	background-image: url("images/signup button click.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+}
+
+#map_canvas
+{
+    width: 250px;
+    height: 200px;
+    border: solid 1px black;
+    margin-left: 33px;
+}
+
+/* DinnerRegistration.aspx */
+
+#remaining
+{
+    background-color:White;
+    width: 230px;
+    margin: 40px 0 40px 31px;
+    padding: 20px 0 20px 20px;
+    
+    /*Border*/
+    border: 2px solid #EDB9AA;
+    border-radius: 10px;
+    -moz-border-radius: 10px; /* Firefox 3.6 and earlier */
+    
+    /*Shadow*/
+    -moz-box-shadow:    5px 5px 15px -1px #888;
+    -webkit-box-shadow: 5px 5px 15px -1px #888;
+    box-shadow:         5px 5px 15px -1px #888;
+    
+    text-align: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+#admission
+{
+    padding: 40px 10px 0 18px;
+    color: Red;
+}
+
+/* RunRegistration.aspx */
+
+#participant-limit
+{
+    background-color:White;
+    width: 230px;
+    margin: 40px 0 40px 31px;
+    padding: 20px 0 20px 20px;
+    
+    /*Border*/
+    border: 2px solid #EDB9AA;
+    border-radius: 10px;
+    -moz-border-radius: 10px; /* Firefox 3.6 and earlier */
+    
+    /*Shadow*/
+    -moz-box-shadow:    5px 5px 15px -1px #888;
+    -webkit-box-shadow: 5px 5px 15px -1px #888;
+    box-shadow:         5px 5px 15px -1px #888;
+    
+    text-align: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+#running-total
+{
+    padding: 5px 5px 0 5px;
+    border: 1px solid #580B27;
+    margin: 10px 0 0 0;
+}
+
+#participants 
+{
+    background: #FFFDFA;
+    width: 230px;
+    margin: 40px 0 40px 31px;
+    padding: 20px 0 20px 20px;
+    
+    /*Border*/
+    border: 2px solid #EDB9AA;
+    border-radius: 10px;
+    -moz-border-radius: 10px; /* Firefox 3.6 and earlier */
+    
+    /*Shadow*/
+    -moz-box-shadow:    5px 5px 15px -1px #888;
+    -webkit-box-shadow: 5px 5px 15px -1px #888;
+    box-shadow:         5px 5px 15px -1px #888;
+    
+    text-align: left;
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
+#participants h2
+{
+    margin-top: -10px;
+    margin-left: -5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#registration-header
+{
+    width: 260px;
+    padding: 10px 10px 10px 10px;
+    margin: 48px 0 45px 80px;
+    border: 1px solid Black;
+}
+
+/* Checkout.aspx */
+
+#disclaimer-header
+{
+   margin: 10px 0 5px 80px; 
+}
+
+#disclaimer
+{
+    width: 635px;
+    margin: 0 0 10px 80px;
+    padding: 0 10px 10px 10px;
+    border: 1px solid Black;
+    background-color:White;
+}
+
+#disclaimer-agreement
+{
+    margin: 20px 0 50px 80px; 
+}
+
+#buttons
+{
+    margin: 0 0 50px 80px;
+}
+
+/* Event.aspx */
+
+#event-holder 
+{
+    display: table;
+    background: #FAF7F0;
+    /*Border*/
+    border: 1px solid #EDC9AA;
+    border-radius: 10px;
+    -moz-border-radius: 10px; /* Firefox 3.6 and earlier */
+    
+    /*Shadow*/
+    -moz-box-shadow:    0 0 25px 0 #888;
+    -webkit-box-shadow: 0 0 25px 0 #888;
+    box-shadow:         0 0 25px 0 #888;
+    
+    padding: 15px;
+    margin: 25px auto 0 auto;
+    width: 730px;
+}
+
+#event-holder #recipient-photo 
+{
+    float: left;
+    width: 125px;
+    height: 115px;
+}
+
+#recipient-photo img
+{
+    width: 125px;
+    height: 115px;
+}
+
+#event-holder div 
+{
+    float: left;
+}
+
+#event-holder div * 
+{
+    float: none;
+}
+
+#event-info 
+{
+    width: 450px;
+}
+
+#event-info #event-name 
+{
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 0px auto 10px auto;
+    text-align: center;
+}
+
+#event-info #event-description 
+{
+    margin: 0px 15px;
+    overflow: hidden;
+    text-align: justify;
+
+}
+
+#event-info2 
+{
+    width: 100px;
+}
+
+#event-info2 #event-time 
+{
+    margin: 0px auto 36px auto;
+}
+
+#sign-up 
+{
+    margin: 0px auto 0px auto;
+}
+
+/* Confirm.aspx */
+
+#receipt-wrapper 
+{
+    width: 800px;
+    margin: 0px auto;
+}
+
+#receipt-header p 
+{
+    margin-bottom: 21px;
+}
+
+#transaction-info 
+{
+    margin-bottom: 40px;
+}
+
+#transaction-info table td
+{
+    width: 120px;
+}
+
+#receipt-items-wrapper 
+{
+    width: 300px;
+    margin-left: 50px;
+}
+
+#printable-copy
+{
+    margin-top: 47px;
+}
+
+#receipt-footer 
+{
+    margin-top: 47px;
+}
+
+#receipt-footer p
+{
+    margin: 0px;
+}
+
+#receipt-finish
+{
+    padding-top: 35px;
+}
+
+#loaderImage
+{
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+/* content_main_ */
+
+#content_main_recipientImage
+{
+    max-height: 115px;
+    max-width: 125px;
+}
+
+#content_main_btnAddAnotherRunner
+{
+    background-image: url("images/add runner.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+    width: 164px;
+    height: 38px;
+    border: none;
+    
+    font-weight: bold;
+    color: White;    
+}
+
+#content_main_btnAddAnotherRunner:hover
+{
+	background-image: url("images/add runner hover.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+}
+
+#content_main_btnAddAnotherRunner:active
+{
+	background-image: url("images/add runner click.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+}
+
+#content_main_btnBack
+{
+    background-image: url("images/back button.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+    width: 106px;
+    height: 38px;
+    border: none;
+    
+    font-weight: bold;
+    color: White;    
+}
+
+#content_main_btnBack:hover
+{
+	background-image: url("images/back button hover.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+}
+
+#content_main_btnBack:active
+{
+	background-image: url("images/back button click.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+}
+
+#content_main_btnCheckout
+{
+    background-image: url("images/checkout button.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+    width: 164px;
+    height: 38px;
+    border: none;
+    
+    font-weight: bold;
+    color: White;    
+}
+
+#content_main_btnCheckout:hover
+{
+	background-image: url("images/checkout button hover.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+}
+
+#content_main_btnCheckout:active
+{
+	background-image: url("images/checkout button click.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+}
+
+#content_main_btnPayPal
+{
+    background-image: url("images/paypal button.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+    width: 164px;
+    height: 38px;
+    border: none;
+}
+
+#content_main_btnPayPal:hover
+{
+	background-image: url("images/paypal button hover.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+}
+
+#content_main_btnPayPal:active
+{
+	background-image: url("images/paypal button click.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+}
+
+#content_main_btnPayPal:disabled
+{
+    background-image: url("images/paypal button disabled.png"); 
+	background-position: 0 0;
+    cursor: default;
+    width: 164px;
+    height: 38px;
+    border: none;
+    
+    font-weight: bold;
+    color: White;  
+}
+
+#content_main_btnFinish
+{
+    background-image: url("images/finish button.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+    width: 106px;
+    height: 38px;
+    border: none;
+}
+
+#content_main_btnFinish:hover
+{
+	background-image: url("images/finish button hover.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+}
+
+#content_main_btnFinish:active
+{
+	background-image: url("images/finish button click.png"); 
+	background-position: 0 0;
+    cursor: pointer;
+}
+
+#content_main_txtCashValue 
+{
+    width: 60px;
+}
+

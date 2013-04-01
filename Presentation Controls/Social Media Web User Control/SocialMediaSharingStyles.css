@@ -1,0 +1,34 @@
+﻿.socialMediaTableCol1 
+{
+    width: 90px;
+}
+
+.socialMediaTableCol2 
+{
+    width: 100px;
+}
+
+.socialMediaTableCol3 
+{
+    width: 90px;
+}
+
+.fb-like
+{
+    margin-bottom: 2px;
+	padding: 0px;    
+}
+
+.twitter-share-button
+{
+    margin: 0px;
+	padding: 0px;
+    max-width: 90px;   
+}
+
+.g-plusone 
+{
+    margin: 0px;
+	padding: 0px;
+    width: 90px;
+}    

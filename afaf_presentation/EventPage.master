@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="EventPage.master.cs" Inherits="EventPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="mainHead" runat="server">
+    <link rel="shortcut icon" href="http://www.anythingforafriend.com/files/8212/8461/3062/favicon.ico" type="image/x-icon" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <link href="global.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="frmMain" runat="server">
+    <div id="nav-bar">
+    </div>
+    <div id="wrapper">
+        <div id="header">
+            <div class="top-bar-background" id="navigation">
+                <ul>
+                    <li><a class="home-button" id="home" href="http://www.anythingforafriend.com/"></a></li>
+                    <li>
+                        <div class="menu-dot">
+                        </div>
+                    </li>
+                    <li><a class="photos-button" id="photos" href="http://www.anythingforafriend.com/photos"></a></li>
+                    <li>
+                        <div class="menu-dot">
+                        </div>
+                    </li>
+                    <li><a class="help-button" id="help-your-friend" href="http://www.anythingforafriend.com/help-your-friend"></a></li>
+                    <li>
+                        <div class="menu-dot">
+                        </div>
+                    </li>
+                    <li><a class="about-button" id="about-us" href="http://www.anythingforafriend.com/about-us"></a></li>
+                    <li>
+                        <div class="menu-dot">
+                        </div>
+                    </li>
+                    <li><a class="blog-button" id="blog" href="http://www.anythingforafriend.com/blog"></a></li>
+                    <li>
+                        <div class="menu-dot">
+                        </div>
+                    </li>
+                    <li><a class="resources-button" id="resources" href="http://www.anythingforafriend.com/resources"></a></li>
+                    <li>
+                        <div class="menu-dot">
+                        </div>
+                    </li>
+                    <li><a class="shop-button" id="shop" href="http://www.anythingforafriend.com/shop"></a></li>
+                </ul>
+            </div>
+            <div id="logo">
+            </div>
+        </div>
+        <div id="content-wrapper">
+            <div id="content">
+                <asp:ContentPlaceHolder ID="content_main" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="footer">
+                <ul class="footerlist">
+                    <li>&copy; 2012<!--Make display current year-->
+                        <a href="http://www.anythingforafriend.com">Anything For A Friend</a>, All Rights
+                        Reserved.</li>
+                    <li><a href="http://www.anythingforafriend.com/contact-us">Contact Us</a></li>
+                    <li><a href="http://www.anythingforafriend.com/search">Search</a></li>
+                    <li><a href="http://www.anythingforafriend.com/donate">Donate</a></li>
+                </ul>
+                Site Design by <a href="http://www.icedesignco.com" target="_blank">
+                    <img class="footer-logo" src="images/ice-design.png" width="74" height="31"></img></a>
+                <p>
+                    <a href="http://www.anythingforafriend.com/index.php/login/">Sign In</a><!-- Make Sign in redirect to Admin Login Page-->
+                </p>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
